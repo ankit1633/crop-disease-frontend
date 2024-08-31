@@ -211,11 +211,10 @@ export const ImageUpload = () => {
     <React.Fragment>
       <AppBar position="static" className={classes.appbar}>
         <Toolbar>
-          <Typography className={classes.title} variant="h6" noWrap>
+          <Typography variant="h6" noWrap>
             Krishi Samadhan
           </Typography>
           <div className={classes.grow} />
-          {/* <Avatar src={cblogo}></Avatar> */}
         </Toolbar>
       </AppBar>
       <Container maxWidth={false} className={classes.mainContainer} disableGutters={true}>
@@ -246,7 +245,7 @@ export const ImageUpload = () => {
                 <CardMedia
                   className={classes.media}
                   image={preview}
-                  component="image"
+                  component="img"
                   title="Uploaded Image"
                 />
               </CardActionArea>
